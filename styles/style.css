@@ -235,3 +235,50 @@ footer {
 .footer-description{
     color: #D9DBE1;
 }
+
+/* RESPONSIVE STYLE START */
+
+@media screen and (max-width: 576px) {
+    .donates-section, .need-survive, section ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .give-donation{
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    section ul{
+        padding: 0;
+    }
+    .donation-text, .survive-section .survive{
+        padding-left: 20px;
+    }
+    
+  
+    .donate-container{
+        margin-bottom: 15px;
+    }
+    .donates-section,
+     .donation-section,
+      .survive-section,
+       .header,
+        .donate-today{
+        margin: 0;
+    }
+    .donation-image img, .need-survive img{
+        width: 100%;
+    }
+    .form{
+        margin: 0;
+    }
+   .form .email{
+    width: 200px;
+   }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    
+}
+
